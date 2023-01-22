@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata: 
     name: servers-configmap
 data: 
-    MYSQL_DATABASE_HOST: mysql-service.default.svc.cluster.local
+    MYSQL_DATABASE_HOST: mysql-service.myapp.svc.cluster.local
     MYSQL_USER: tomas
     MYSQL_DATABASE: phonebook
 
