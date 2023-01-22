@@ -1,6 +1,9 @@
 # ArgoCD-phonebook-app
 This repository created for ArgoCD test
 
+While using minikube to see the application from url:
+minikube service phonebook-service --url
+
 Commands
 
 # install ArgoCD in k8s
